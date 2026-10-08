@@ -1,0 +1,458 @@
+This is a copy of a shared ChatGPT chat. It won't be added to memory.
+
+Report conversation
+Today 10:42 AM
+[08/10, 10:24 am] MUKESH Thalapathy 😸Lc B: 1. Create a GitHub repository named student-project. Add a README file and create an index.html file containing a simple student portfolio page. Commit the files to the repository.
+
+2. Create a simple HTML project containing index.html, style.css, and an image. Upload all files to the GitHub repository and commit the changes. Verify the files in the repository.
+
+3. Clone the student-project repository using GitHub Desktop. Modify index.html, commit the changes with a suitable message, and push the changes to GitHub.
+
+4. Make a change to a file through GitHub.com. Open the repository using GitHub Desktop, fetch/pull the changes, and verify that the local copy contains the updated content.
+
+5. Create a branch named feature from the main branch. Modify index.html in the feature branch and commit the changes. Switch between main and feature and observe the differences.
+
+6. Create a branch named feature. Add a new section called Skills to the portfolio. Commit the changes and merge the feature branch into main.
+
+7. Create a .gitignore file and configure it to ignore temporary files and an unnecessary folder. Commit the .gitignore file and verify that the ignored files do not appear as Git changes.
+
+8. Make at least two changes to a project and commit each change separately. View the commit history, identify an unwanted commit, and revert it.
+
+9. Create an issue titled Fix Homepage Layout. Create suitable labels such as bug, enhancement, and documentation. Create a milestone named Version 1.0, assign the issue to the milestone, assign a user, and close the issue after completion.
+
+10. Create a feature branch and make a modification to the project. Push the branch to GitHub and create a Pull Request from feature to main. Review the changes, add a review comment, approve the Pull Request, and merge it.
+
+11. Create two branches from the same version of a file. Modify the same section differently in both branches. Merge one branch into the other, identify the merge conflict, resolve it, and commit the resolved file.
+[08/10, 10:24 am] MUKESH Thalapathy 😸Lc B: For DevOps tomorrow exam questions
+[08/10, 10:25 am] MUKESH Thalapathy 😸Lc B: Question will be asked from these 11 questions
+
+hy ipa nanu exam prepare pannaum epadi pandrdhu ne sollu? lab la
+
+ஆம் Ajay 👍 இது DevOps lab practical exam மாதிரி இருக்கு. இந்த 11 questions-ஐ முழு theory-ஆ படிக்க வேண்டாம். GitHub + GitHub Desktop-ல் என்ன click பண்ணணும், என்ன command/use பண்ணணும் என்பதை practice பண்ணினா போதும்.
+
+நான் உனக்கு exam-oriented practice order-ல சொல்லுறேன்.
+
+🔥 முதலில் இந்த 6 basics-ஐ practice பண்ணு
+
+Q1 → Q2 → Q3 → Q4 → Q5 → Q6
+
+இவைகளை சரியாக செய்தால் Q7–Q11 ரொம்ப easy ஆகிடும்.
+
+🟢 LAB PRACTICE — ஒரே project வைத்து practice பண்ணு
+Step 1 — Repository Create
+
+GitHub.com → New Repository
+
+Repository name:
+
+student-project
+
+✅ Add README
+→ Create repository
+
+Step 2 — Portfolio files create
+
+உன்னுடைய project-ல்:
+
+student-project
+│
+├── README.md
+├── index.html
+├── style.css
+└── student.jpg
+
+index.html simple-ஆ:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>My Student Portfolio</h1>
+<p>Name: Ajay Raj</p>
+<p>Course: B.Sc Computer Science</p>
+
+</body>
+</html>
+
+style.css:
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+இதையும் GitHub repository-க்கு upload பண்ணு.
+
+Commit message:
+
+Added student portfolio
+
+👉 இது Q1 + Q2.
+
+🟢 Q3 — GitHub Desktop Clone
+
+GitHub Desktop open பண்ணு.
+
+File → Clone Repository
+
+Select:
+
+student-project
+
+→ Choose local folder
+→ Clone
+
+அதுக்கப்புறம் local index.html open பண்ணி:
+
+<p>Welcome to my portfolio</p>
+
+add பண்ணு.
+
+GitHub Desktop-க்கு போ.
+
+Changes காட்டும்.
+
+Commit message:
+
+Updated portfolio page
+
+→ Commit to main
+→ Push origin
+
+👉 இது Q3.
+
+🟢 Q4 — GitHub.com → Desktop Pull
+
+GitHub.com-ல் index.html open பண்ணு.
+
+✏️ Edit
+
+ஒரு line add பண்ணு:
+
+<p>Welcome to GitHub</p>
+
+→ Commit changes.
+
+இப்ப GitHub Desktop open பண்ணு.
+
+Fetch origin
+
+பிறகு:
+
+Pull origin
+
+Local index.html open பண்ணி change வந்திருக்கிறதா பாரு.
+
+👉 இதுதான் Q4.
+
+🟢 Q5 — Branch
+
+GitHub Desktop:
+
+Current Branch → New Branch
+
+Name:
+
+feature
+
+Create branch.
+
+index.html modify பண்ணு:
+
+<h2>My Projects</h2>
+
+Commit:
+
+Added projects section
+
+இப்ப:
+
+Current Branch → main
+
+index.html பாரு.
+
+Projects section இருக்காது.
+
+மீண்டும்:
+
+Current Branch → feature
+
+Projects section இருக்கும்.
+
+🔥 Exam-ல் முக்கியமான concept:
+
+main
+  |
+  └── feature
+
+👉 இது Q5.
+
+🟢 Q6 — Branch Merge
+
+feature branch-ல்:
+
+<h2>Skills</h2>
+<p>HTML, CSS, JavaScript</p>
+
+add பண்ணு.
+
+Commit:
+
+Added Skills section
+
+இப்ப main branch-க்கு switch பண்ணு.
+
+GitHub Desktop:
+
+Branch → Merge into current branch
+
+Select:
+
+feature
+
+→ Merge.
+
+இப்ப main-ல் Skills section இருக்கும்.
+
+👉 Q6.
+
+🟡 Q7 — .gitignore
+
+Project folder-ல்:
+
+.gitignore
+
+create பண்ணு.
+
+Example:
+
+temp/
+*.tmp
+
+Folder:
+
+temp
+
+create பண்ணலாம்.
+
+அதில் temporary file வை.
+
+GitHub Desktop-ல் பார்த்தால் temp / .tmp file changes-ல் வரக்கூடாது.
+
+Commit:
+
+Added gitignore
+
+👉 Q7.
+
+🟠 Q8 — Commit + Revert
+
+முதலில் change:
+
+Added About section
+
+Commit.
+
+Second change:
+
+Changed portfolio title
+
+Commit.
+
+இப்ப GitHub Desktop → History
+
+2 commits இருக்கும்.
+
+Unwanted commit select பண்ணி:
+
+Revert changes in commit
+
+அல்லது Git command:
+
+git revert <commit-id>
+
+பிறகு commit/push.
+
+👉 Q8.
+
+🔵 Q9 — GitHub Issue
+
+GitHub repository → Issues
+
+Create issue:
+
+Fix Homepage Layout
+
+Labels:
+
+bug
+enhancement
+documentation
+
+Milestone:
+
+Version 1.0
+
+Issue-க்கு milestone assign பண்ணு.
+
+ஒரு user-ஐ Assignee ஆக select பண்ணு.
+
+Work complete ஆனதும்:
+
+Close issue
+
+👉 Q9 mostly GitHub website practical.
+
+🔴 Q10 — Pull Request
+
+முக்கியமான flow:
+
+main
+  ↓
+feature branch
+  ↓
+modify
+  ↓
+commit
+  ↓
+push
+  ↓
+Pull Request
+  ↓
+Review
+  ↓
+Approve
+  ↓
+Merge
+
+GitHub Desktop-ல்:
+
+New Branch → feature
+
+Change செய்ய.
+
+Commit:
+
+Updated portfolio
+
+→ Push origin
+
+GitHub.com:
+
+Compare & pull request
+
+PR:
+
+feature → main
+
+Create PR.
+
+Review comment add பண்ணு.
+
+Approve.
+
+Merge pull request
+
+👉 Q10.
+
+🔥 Q11 — Merge Conflict
+
+இதுதான் கொஞ்சம் important.
+
+Initially:
+
+<h1>My Portfolio</h1>
+
+இரண்டு branches create பண்ணு:
+
+feature1
+feature2
+feature1:
+<h1>Ajay Portfolio</h1>
+
+Commit.
+
+feature2:
+<h1>Student Portfolio</h1>
+
+Commit.
+
+இரண்டு branches-லும் same line different-ஆ change பண்ணியதால் conflict வரும்.
+
+Merge செய்யும்போது:
+
+<<<<<<< HEAD
+<h1>Ajay Portfolio</h1>
+=======
+<h1>Student Portfolio</h1>
+>>>>>>> feature2
+
+Git conflict காட்டும்.
+
+நீ decide பண்ணி தேவையான line மட்டும் வைக்கணும்:
+
+<h1>Ajay Student Portfolio</h1>
+
+<<<<<<<, =======, >>>>>>> remove பண்ணு.
+
+Save.
+
+GitHub Desktop → Mark as resolved
+
+Commit:
+
+Resolved merge conflict
+
+👉 Q11 complete.
+
+⭐ Exam-க்கு எப்படி prepare பண்ணணும்?
+
+இன்று lab-ல் இந்த order-ல் practice பண்ணு:
+
+Priority	Questions
+🔥 Must Practice	1, 2, 3, 4
+🔥 Must Practice	5, 6
+⭐ Practice	7, 8
+⭐ Practice	9, 10
+🔥 Very Important	11
+உனக்கு நான் suggest பண்ணுற practice:
+
+ஒரே student-project repository-யை வைத்து 11 questions-யும் செய்யாதே.
+
+Q1–Q6 practice செய்ய ஒரு repository போதும்.
+
+Q7–Q11-ஐ தனித்தனியாக practice பண்ணலாம்.
+
+🧠 Exam-ல் மறக்காமல் இந்த Git words மட்டும் தெரிஞ்சிருக்கணும்
+Repository
+Commit
+Push
+Pull
+Fetch
+Clone
+Branch
+Merge
+Revert
+.gitignore
+Issue
+Milestone
+Pull Request
+Merge Conflict
+
+இதுதான் உன் முழு lab exam-ன் backbone.
+
+நீ lab-ல் இப்ப computer முன்னாடி இருந்தால், Q1-லிருந்து நான் உன்னை step-by-step நடத்தலாம் — “இப்ப இந்த button click பண்ணு → அடுத்து இதை type பண்ணு” என்று.
+
+If you want, I can:
+
+Summarize this conversation
+Guide me through step-by-step practice for the first few GitHub questions
+Create a checklist summarizing key Git commands and concepts for the exam
